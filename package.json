@@ -1,0 +1,31 @@
+{
+  "name": "jest-sinon-examples",
+  "version": "1.0.0",
+  "description": "A set of examples showing how to implement mocks in Jest and Sinon.",
+  "main": "index.js",
+  "author": "MikeTheReader",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "setupFiles": [
+      "jest-plugin-context/setup"
+    ],
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.4.3",
+    "jest-plugin-context": "^2.9.0",
+    "sinon": "^5.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
