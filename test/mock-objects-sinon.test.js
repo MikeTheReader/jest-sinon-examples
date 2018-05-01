@@ -1,7 +1,6 @@
 import sinon from 'sinon';
 import PubSub from '../src/pubsub';
 
-// Spies
 describe('Sinon', () => {
   describe('Mock Objects', () => {
     it('calls function on publish', () => {
